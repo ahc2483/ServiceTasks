@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Source", "Source", "{763FC9B8-AE01-4990-83CF-68A5274E27AE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceTasks", "Source\ServiceTasks\ServiceTasks.csproj", "{80DBC6B7-D418-49EF-BF2F-520F7EC458BF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Packages", "Packages", "{5C92C8E2-D12D-4DBF-A8B7-160116D7AA1F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{80DBC6B7-D418-49EF-BF2F-520F7EC458BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80DBC6B7-D418-49EF-BF2F-520F7EC458BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80DBC6B7-D418-49EF-BF2F-520F7EC458BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80DBC6B7-D418-49EF-BF2F-520F7EC458BF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{80DBC6B7-D418-49EF-BF2F-520F7EC458BF} = {763FC9B8-AE01-4990-83CF-68A5274E27AE}
+	EndGlobalSection
+EndGlobal
