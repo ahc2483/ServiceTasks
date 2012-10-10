@@ -6,7 +6,7 @@ Offers the ability to schedule commands to be sent, using the NServiceBus Task f
 
 Example Configuration
 ================
-
+<pre><code>
 <configSections>
   <section name="TaskSchedule" type="ServiceTasks.Schedule.Storage.TaskScheduleConfiguration, ServiceTasks"/>
 </configSections>
@@ -17,11 +17,11 @@ Example Configuration
          messageType="Messages.Commands.MyCommand, Messages.Commands, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"/>
   </Tasks>
 </TaskSchedule>
-
+</code></pre>
 
 If using with NServiceBus: Sample NServiceBus Endpoint Config (ServiceTasks needs this in order to know where your schedule is stored. You can use your builder of choice)
 ================
-
+<pre><code>
 [EndpointName(myendpoint")]
 public class EndpointConfig : IConfigureThisEndpoint, AsA_Publisher, IWantCustomInitialization
 {
@@ -35,3 +35,4 @@ public class EndpointConfig : IConfigureThisEndpoint, AsA_Publisher, IWantCustom
             .AutofacBuilder(builder.Build());
 	}
 }
+</code></pre>
