@@ -1,7 +1,7 @@
 ServiceTasks
 ================
 
-Offers the ability to schedule commands to be sent, using the NServiceBus Task framework
+Offers the ability to schedule commands to be sent from a running NServiceBus endpoint.
 
 
 Example Configuration
@@ -19,8 +19,10 @@ Example Configuration
 	</TaskSchedule>
 
 
-If using with NServiceBus: Sample NServiceBus Endpoint Config (ServiceTasks needs this in order to know where your schedule is stored. You can use your builder of choice)
+Sample NServiceBus Endpoint Config 
 ================
+
+ServiceTasks needs this in order to know where your schedule is stored. You can use your supported builder of choice.
 
 	[EndpointName("myendpoint")]
 	public class EndpointConfig : IConfigureThisEndpoint, AsA_Publisher, IWantCustomInitialization
