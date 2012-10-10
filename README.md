@@ -1,4 +1,4 @@
-ServiceTasks
+Overview
 ================
 
 Offers the ability to schedule commands to be sent from a running NServiceBus endpoint.
